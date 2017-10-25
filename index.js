@@ -28,6 +28,4 @@ function destructivelyDeleteFromObjectByKey(object, key){
   return object;
 }
 
-var object =  {prop: 1};
 
-destructivelyDeleteFromObjectByKey(object, 'prop');
